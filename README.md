@@ -1,5 +1,6 @@
 # Engenheiro de dados
-Código feito como proposta de solução do desafio para vaga de engenheiro de dados. A linguagem de programação escolhida foi Python e o banco de dados é o sqlite3.
+
+Código feito como proposta de solução do desafio para vaga de engenheiro de dados. A linguagem de programação escolhida foi Python utilizando o jupyter notebook do anaconda e o banco de dados foi o sqlite3.
 
 Código construído em ambiente docker com a imagem do anaconda. Entendendo que já tenha o Docker Desktop instalado, segue o código de instalação da imagem do anaconda:
 docker run -it -p 8888:8888 -v "%cd%/notebooks:/home" continuumio/anaconda3 /bin/bash
