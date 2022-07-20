@@ -1,0 +1,87 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "localidade",
+      "path": "localidade.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "id_localidade",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "nome_localidade",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "id_uf",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "sigla_uf",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "nome_uf",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "id_regiao",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "nome_regiao",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      }
+    },
+    {
+      "name": "nomes",
+      "path": "nomes_localidade.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "nome",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "id_localidade",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "periodo",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "frequencia",
+            "type": "integer",
+            "format": "default"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "my-data-package",
+  "description": "Dados coletados para o desafio",
+  "contributors": [
+    {
+      "title": "Viviane Freitas",
+      "role": "author"
+    }
+  ],
+  "title": "Data"
+}
